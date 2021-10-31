@@ -1,0 +1,45 @@
+{
+    "Providers": [{
+        "locationId": "94b8fe99-2a24-4a2a-aa41-a96839921e9b",
+        "locationTitle": "Kumarakom, Kerala, India",
+        "latitude": 9.6175449,
+        "longitude": 76.430095,
+        "userId": "feVY31hNEbbGkDSlgv0HuUoIUHf2",
+        "title": "Project Lead@Gantex",
+        "spiffy": [3],
+        "email": "evie097@mailinator.com",
+        "avatarUrl": "1602644043496.jpg",
+        "fullname": "Evie Kq",
+        "aboutme": "test gigin kk",
+        "phoneNumber": "6306968748",
+        "amount":3000
+    }, {
+        "locationId": "230d3acf-6cf6-4b62-b4d9-054900d28406",
+        "locationTitle": "Kumarakom, Kerala, India",
+        "latitude": 9.6175449,
+        "longitude": 76.430095,
+        "userId": "4ow4Vr1W0DdZmhE4BzsbEz14hMK2",
+        "title": null,
+        "spiffy": [0],
+        "email": "evie0989@mailinator.com",
+        "avatarUrl": "",
+        "fullname": "Evie Remya",
+        "aboutme": "Well, to put in simple words, I am a Web & Mobile App Developer hailing from one of the most beautiful and picturesque places in the world often called as ‘The God’s own country’ – Kerala in India. Along with a graduation in Computer Science from one",
+        "phoneNumber": "6306968748",
+        "amount":3000
+    }, {
+        "locationId": "721131f7-ad19-474d-aa46-95dd73cef904",
+        "locationTitle": "Alleppey, Kerala, India",
+        "latitude": 9.498066699999999,
+        "longitude": 76.3388484,
+        "userId": "vFZY2QjnUrW5q56DNne9WubNehP2",
+        "title": null,
+        "spiffy": [0],
+        "email": "arjuny2007@gmail.com",
+        "avatarUrl": "",
+        "fullname": "Timmyjimmy J",
+        "aboutme": "Me so jobless 😔",
+        "phoneNumber": "Ffffffffff",
+        "amount":3000
+    }]
+}

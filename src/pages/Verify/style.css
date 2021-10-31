@@ -1,0 +1,116 @@
+.upload-card img{
+    max-height: 65px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 15px;
+}
+
+.upload-card {
+    text-align: center;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    min-height: 195px;
+    transition: 0.2s;
+}
+.upload-card:hover{
+    transform: scale(1.01);
+    transition: 0.2s;
+    box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.473);
+}
+
+.upload-card h5{
+    font-weight: 700;
+    font-size: 15px
+}
+.upload-card p{
+    font-size: 14px
+}
+
+.verify-card{
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    min-height: 360px;
+    position: relative;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+.verify-card:hover{
+    box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.473);
+    transition: 0.3s;
+    transform: scale(1.01);
+}
+
+.verify-bg{
+    height: 180px;
+    background-size: cover;
+}
+
+.dollar h6{
+    font-size: 20px;
+    font-weight: 900;
+}
+.dollar{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    padding: 18px 0;
+    margin-top: -60px;
+    background: white;
+    margin-bottom: 18px;
+}
+
+.verify-button{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: none !important;
+    bottom: 25px;
+    background-color: #d04106 !important;
+    padding: 8px 30px;
+    border-radius: 9px;
+    font-weight: 700;
+    box-shadow: none;
+    width: fit-content;
+    color: white !important;
+    cursor: pointer;
+    min-width: 110px;
+    text-align: center;
+}
+.upload-card-mini{
+    text-align: center;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    min-height: 130px;
+    transition: 0.2s;
+}
+.upload-card-mini img{
+    max-height: 50px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.upload-card-mini:hover{
+    transform: scale(1.01);
+    transition: 0.2s;
+    box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.473);
+}
+
+.upload-card-mini h5{
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 0;
+    font-size: 15px
+}
+.upload-card-mini p{
+    font-size: 12px
+}

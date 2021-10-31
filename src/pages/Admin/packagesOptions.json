@@ -1,0 +1,81 @@
+{
+    "Packages": [{
+        "optionName": "Care Option 1",
+        "description":"",
+        "oneTimeFee":250,
+        "billingDate":"20-2-2015",
+        "meetParent":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "crv":"USD 250 printing and typesetting industry.",
+        "packages":[
+            {
+                "packageTitle":"Weekly Vitals USD 250"
+            },
+            {
+                "packageTitle":"Lorem  dummy USD 250"
+            }
+        ],
+        "users": [{
+            "userId": "feVY31hNEbbGkDSlgv0HuUoIUHf2",
+                "email": "evie097@mailinator.com",
+                "avatarUrl": "1602644043496.jpg",
+                "fullname": "Evie Kq",
+                "phoneNumber": "6306968748"
+            },
+            {
+                "userId": "4ow4Vr1W0DdZmhE4BzsbEz14hMK2",
+                "email": "evie0989@mailinator.com",
+                "avatarUrl": "",
+                "fullname": "Evie Remya",
+                "aboutme": "Well, to put in simple words, I am a Web & Mobile App Developer hailing from one of the most beautiful and picturesque places in the world often called as ‘The God’s own country’ – Kerala in India. Along with a graduation in Computer Science from one",
+                "phoneNumber": "6306968748"
+            },
+            {
+                "userId": "vFZY2QjnUrW5q56DNne9WubNehP2",
+                "email": "arjuny2007@gmail.com",
+                "avatarUrl": "",
+                "fullname": "Timmyjimmy J",
+                "aboutme": "Me so jobless 😔",
+                "phoneNumber": "Ffffffffff"
+            }
+        ]
+
+    },
+    {
+        "optionName": "Care Option 2",
+        "description":"",
+        "oneTimeFee":250,
+        "billingDate":"20-2-2015",
+        "meetParent":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "crv":"USD 250 printing and typesetting industry.",
+        "packages":[
+            {
+                "packageTitle":"Weekly Vitals USD 250"
+            },
+            {
+                "packageTitle":"Lorem  dummy USD 250"
+            }
+        ],
+        "users": [{
+                "email": "evie097@mailinator.com",
+                "avatarUrl": "1602644043496.jpg",
+                "fullname": "Evie Kq",
+                "phoneNumber": "6306968748"
+            },
+            {
+                "email": "evie0989@mailinator.com",
+                "avatarUrl": "",
+                "fullname": "Evie Remya",
+                "aboutme": "Well, to put in simple words, I am a Web & Mobile App Developer hailing from one of the most beautiful and picturesque places in the world often called as ‘The God’s own country’ – Kerala in India. Along with a graduation in Computer Science from one",
+                "phoneNumber": "6306968748"
+            },
+            {
+                "email": "arjuny2007@gmail.com",
+                "avatarUrl": "",
+                "fullname": "Timmyjimmy J",
+                "aboutme": "Me so jobless 😔",
+                "phoneNumber": "Ffffffffff"
+            }
+        ]
+
+    }]
+}

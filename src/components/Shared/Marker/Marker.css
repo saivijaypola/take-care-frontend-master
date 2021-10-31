@@ -1,0 +1,55 @@
+.marker-top {
+    width: 35px;
+    /* position: absolute;
+top: 60px;
+left: 265px; */
+    /* animation: pulse .2s ease-in-out infinite alternate; */
+    /* position: relative; */
+}
+
+.marker-left {
+    width: 35px;
+    position: absolute;
+    top: 265px;
+    left: 10px;
+    /* animation: pulse .2s ease-in-out infinite alternate; */
+    /* position: relative; */
+}
+
+.marker-bottom {
+    width: 35px;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    /* animation: pulse .2s ease-in-out infinite alternate; */
+    /* position: relative; */
+}
+
+.marker img {
+    width: 100%;
+    z-index: -1;
+    position: relative;
+}
+
+.marker-top::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    background-color: rgba(221, 179, 255, 0.25);
+    animation: pulse 1s ease-in-out infinite alternate;
+    left: 8px;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1.5);
+    }
+    to {
+        transform: scale(2.5);
+    }
+}

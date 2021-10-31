@@ -1,0 +1,10 @@
+.no-data h4{
+    font-size: 20px;
+      font-weight: 900;
+      margin-bottom: 0;
+  }
+  
+  .no-data img{
+    width: 100px;
+      padding: 20px;
+  }

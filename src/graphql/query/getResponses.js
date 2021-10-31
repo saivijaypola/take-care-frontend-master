@@ -1,0 +1,84 @@
+import gql from "graphql-tag";
+export default gql(`
+query getResponds($requestId: UUID!){
+  tblRequestByRequestId(requestId: $requestId){
+    nodeId
+    requestId
+    title
+    description
+    userId
+    locationTitle
+    latitude
+    longitude
+    isHealthcare
+    isDisabled
+    isCompleted
+    serviceNeedsOn
+    serviceEndsOn
+    advanceAmount
+    payableOnCompletion
+    total
+    paymentDue
+    isDateFlexible
+    isActive
+    status
+    userFeedback
+    providerFeedback
+    createdAt
+    updatedAt
+    deletedAt
+    serviceCategory
+    tblChatsByRequestId(condition:{chatInititated:true}) {totalCount nodes{chatId chatInititated
+tblUserByProviderId{
+  userId
+  fullname
+  spiffy
+  aboutme
+  avatarUrl
+  email
+  title
+  tblUserLocationByUserId{
+    latitude
+    longitude
+    locationTitle
+  }
+}
+      
+    }}
+    tblUserReactionsByRequestId{
+      totalCount
+      nodes{
+        requestId
+        reactionId
+        providerId
+        isLiked
+        isDisliked
+        isVisible
+        userId
+        updatedAt
+        createdAt
+      }
+    }
+    tblServiceOrdersByRequestId{totalCount nodes{
+      serviceOrderId
+      orderTotalAmount
+      orderStatus
+      providerComments
+      tblUserByProviderId{
+        userId
+        fullname
+        spiffy
+        aboutme
+        avatarUrl
+        email
+        title
+        tblUserLocationByUserId{
+          latitude
+          longitude
+          locationTitle
+        }
+      }
+    }}
+  }
+}
+`);

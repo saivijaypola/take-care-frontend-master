@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 " />
+  <meta name="theme-color" content="#8a178e" />
+  <meta name="description"
+    content="A platform for you and your family to find trusted and qualified individuals for all your health-care and essential needs. " />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=%REACT_APP_GOOGLE_MAP_APIKEY%&libraries=places"></script>
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet"> -->
+
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#8a178e">
+
+  <!-- for slider -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-REKX1MFP99"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-REKX1MFP99');
+  </script>
+  <title>YoCo</title>
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="YoCo App" />
+  <meta property="og:description"
+    content="A platform for you and your family to find trusted and qualified individuals for all your health-care and essential needs." />
+  <meta property="og:image" itemprop="image" content="./logo512.png" />
+  <style>
+    #snackbar {
+      visibility: hidden;
+      min-width: 250px;
+      margin-left: -125px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 2px;
+      padding: 16px;
+      position: fixed;
+      z-index: 1;
+      left: 50%;
+      bottom: 30px;
+    }
+
+    #snackbar.show {
+      visibility: visible;
+      -webkit-animation: fadein 0.5s;
+      animation: fadein 0.5s;
+    }
+
+    @-webkit-keyframes fadein {
+      from {
+        bottom: 0;
+        opacity: 0;
+      }
+
+      to {
+        bottom: 30px;
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadein {
+      from {
+        bottom: 0;
+        opacity: 0;
+      }
+
+      to {
+        bottom: 30px;
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="snackbar">A new version of this app is available. Click <a id="reload">here</a> to update.</div>
+  <div id="root">
+
+  </div>
+  <script>
+    AOS.init();
+  </script>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script>
+    // let newWorker;
+
+    // function showUpdateBar() {
+    //   let snackbar = document.getElementById('snackbar');
+    //   if(snackbar)
+    //   snackbar.className = 'show';
+    // }
+
+    // // The click event on the pop up notification
+    // document.getElementById('reload').addEventListener('click', function () {
+    //   newWorker.postMessage({ action: 'skipWaiting' });
+    // });
+
+    // if ('serviceWorker' in navigator) {
+
+      // navigator.serviceWorker.register('http://localhost:5000/firebase-messaging-sw.js').then(reg => {
+      //   reg.addEventListener('updatefound', () => {
+      //     // A wild service worker has appeared in reg.installing!
+      //     newWorker = reg.installing;
+
+      //     newWorker.addEventListener('statechange', () => {
+      //       // Has network.state changed?
+      //       switch (newWorker.state) {
+      //         case 'installed':
+      //           if (navigator.serviceWorker.controller) {
+      //             // new update available
+      //             showUpdateBar();
+      //           }
+      //           // No update available
+      //           break;
+      //       }
+      //     });
+      //   });
+      // });
+
+      // let refreshing;
+      // navigator.serviceWorker.addEventListener('controllerchange', function () {
+      //   if (refreshing) return;
+      //   window.location.reload();
+      //   refreshing = true;
+      // });
+    // }
+  </script>
+
+
+</body>
+
+</html>

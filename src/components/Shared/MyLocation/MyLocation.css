@@ -1,0 +1,14 @@
+.dp-bottom{
+    width: 45px;
+
+/* animation: pulse .2s ease-in-out infinite alternate; */
+/* position: relative; */ 
+}
+.dp-bottom img{
+    width: 50%;
+    z-index: 1;
+position: relative;
+border-radius: 50%;
+border: 3px solid white;
+z-index:-1;
+}

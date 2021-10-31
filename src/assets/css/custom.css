@@ -1,0 +1,65 @@
+.yoco-logo {
+    width: 140px;
+}
+
+.height-top-sign-in {
+    height: 110vh !important;
+}
+
+.height-top-join-in {
+    height: 142vh !important;
+}
+
+.height-top-provider-join-in {
+    height: 155vh !important;
+}
+
+.nav-pills {
+    background-color: transparent;
+    /* border-bottom: solid 1px #b4b4b4; */
+    padding-bottom: 3px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #5e2490;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.activeadmin{
+    font-weight: bold;
+    background-color: white;
+    color: white !important;
+}
+
+.active .title {
+    color: rgb(1, 1, 1);
+}
+
+.nav-link.active {
+    background-color: white !important;
+}
+
+.verify-link {
+    margin: 18px;
+}
+
+.profile-img {
+    margin-bottom: 10px;
+}
+
+.error-msg {
+    padding: 10px 5px;
+}
+
+@media (max-width: 767px) {
+    .height-top-sign-in {
+        height: auto !important;
+    }
+    .height-top-provider-join-in {
+        height: auto !important;
+    }
+    .height-top-join-in {
+        height: auto !important;
+    }
+}
